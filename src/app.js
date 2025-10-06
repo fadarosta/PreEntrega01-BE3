@@ -10,7 +10,7 @@ import mocksRouter from './routes/mocks.router.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const connection = mongoose.connect(`URL DE MONGO`);
+const connection = mongoose.connect('mongodb://localhost:27017/petadoption');
 
 app.use(express.json());
 app.use(cookieParser());

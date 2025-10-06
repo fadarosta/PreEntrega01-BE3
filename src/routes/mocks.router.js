@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import User from '../models/User.js';
-import Pet from '../models/Pet.js';
+import User from '../dao/models/User.js';
+import Pet from '../dao/models/Pet.js';
 import { generateMockPets } from '../mocks/pet.mocks.js';
 import { generateMockUsers } from '../mocks/user.mocks.js';
 
